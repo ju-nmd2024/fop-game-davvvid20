@@ -151,6 +151,7 @@ function redrect() {
 }
 
 function draw() {
+  frameRate(30);
   if (!gameStarted) {
     background(250, 200, 150);
     textAlign(CENTER, CENTER);
